@@ -1,5 +1,4 @@
 import WeatherView from  '@/views/WeatherView.vue'
-import HourlyWeatherView from '@/views/HourlyWeatherView.vue'
 
 import { createRouter, createWebHistory } from 'vue-router'
 
