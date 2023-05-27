@@ -113,7 +113,7 @@ export default {
 <div></div>
 <table>
     <tr v-for="hw in hWeather">   
-      <td><img :src="`https://openweathermap.org/img/wn/{{ hw.weather[0].icon }}.png`"/></td>
+      <td><img :src="`https://openweathermap.org/img/wn/${hw.weather[0].icon}.png`"/></td>
       <td></td>
       <td></td>
       <td><label>{{ hw.main.temp }}</label></td>
@@ -122,6 +122,4 @@ export default {
       <td><label >{{ hw.dt_txt }}</label></td>    
     </tr>  
   </table>
- 
-
 </template>
